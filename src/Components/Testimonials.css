@@ -1,0 +1,142 @@
+*{
+
+
+    padding-right:1rem;
+    padding-left: 1rem;
+}
+  
+.checked {
+  color: rgb(249, 169, 22);
+  padding:0.15rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.testi{
+  color:salmon;
+  position: center;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: lighter;
+}
+.feedback{
+  text-align: center;
+  color: #391400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight:bolder;
+font-size: 2rem;
+margin-left: 12rem;
+margin-right: 12rem;
+}
+.qucontainer{
+  box-sizing: border-box;
+  width:21rem;
+  box-shadow: #411a06;
+background: #fbd9a921;
+border: 1px solid #b2745062 ;
+padding: 1rem;
+cursor: pointer;
+
+}
+.qucontainer1{
+  box-sizing: border-box;
+  width:22rem;
+  box-shadow: #411a06;
+background: #fbd9a921;
+border: 1px solid #b2745092 ;
+padding: 1rem;
+cursor: pointer;
+}
+.qucontainer2{
+  box-sizing: border-box;
+  width:24rem;
+  box-shadow: #411a06;
+background: #fbd9a912;
+border: 1px solid #b2745092 ;
+padding: 1rem;
+cursor: pointer;
+}
+.qucontainer2:hover{
+  background-color: #FFFFFF;
+}
+.qucontainer1:hover{
+  background-color: #FFFFFF;
+}
+.qucontainer:hover{
+  background-color: #FFFFFF;
+}
+.pe{
+font-size:0.75rem;
+color: rgba(59, 22, 1, 0.822);
+font-family:'Poppins', sans-serif;
+padding: 0.45rem;
+background: #ffffff01;
+
+}
+.name{
+  color: #391400;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 1.125rem;
+
+}
+.span{
+  padding: 1.5rem;
+}
+.btn{
+  padding: 3rem;
+  place-content: center;
+  text-align: center;
+}
+.button {
+  background-color: #f3f7f3; /* Green */
+  border-radius:0.5rem;
+  font-family: 'Poppins',sans-serif;
+  border:none;
+  color: rgb(60, 3, 3);
+  font-weight: bold;
+  padding:0.5rem;
+  text-align: center;
+  font-size:1.25rem;
+  box-shadow: 3px 2px#8888886c;
+  
+}
+
+.button:hover {
+  background-color: #645304; /* Green */
+  color: white;
+  cursor: pointer;
+}
+.circular_image {
+  float: left;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(240, 240, 246, 0);
+  width:3rem;
+}
+
+.circular_image img{
+  width: 100%;
+
+}
+.pr{
+  font-family: 'Poppins',sans-serif;
+  font-size:1rem;
+  color:#391400;
+  margin-left: 3rem;
+  padding-top: 0px;
+  font-weight: lighter;
+}
+

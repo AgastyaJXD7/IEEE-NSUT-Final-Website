@@ -1,0 +1,26 @@
+.NavBar_Container{
+   display: inline-flex;
+   justify-content: center; align-items: center;
+   gap: 5rem;
+   width: 90%; height: 2.3rem;
+   margin: 1rem 5%;
+}
+.NavBar_Item{
+    font-size: 1rem;
+    color:  rgb(2, 147, 251);
+}
+
+.NavBar_Image img{
+    height: 40px; width: 40px;
+}
+
+.NavBar_ContactContainer{
+    margin-left: 5rem;
+    border: solid 1px  rgb(2, 147, 251);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.NavBar_Contact{
+    font-size: 1.1rem;
+    color:  rgb(2, 147, 251);
+}
